@@ -1,0 +1,14 @@
+Advanced ORM queries:-
+
+values()
+aggregate()
+annotate()
+
+
+SUM
+AVG
+MIN
+MAX
+COUNT
+
+django->db->models->SUM,AVG,MIN,MAX,COUNT
