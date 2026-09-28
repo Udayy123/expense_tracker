@@ -13,8 +13,14 @@ class UserSerializer(serializers.ModelSerializer):
 
     
 class ExpenceSerializer(serializers.ModelSerializer):
+    owner=serializers.SerializerMethodField()
+    
     class Meta:
         model=Expense
         fields="__all__"
-        read_only_fields=["id","created_at","owner"]
+        read_only_fields=["id","created_at"]
+    def get_greeting(selg,obj):
+        return "Hi,Welcome to Expense Tracker!"
+    def get_owner(self,obj):
+        return obj.owner.username
 

@@ -12,3 +12,23 @@ MAX
 COUNT
 
 django->db->models->SUM,AVG,MIN,MAX,COUNT
+
+admin ozhike bakki user kk expense add cheyyanum summery view cheyyanum ulle authentication django 
+l illa so ath nammal custom ayit build cheyyanam
+
+custom ayitt build  chayyan baseauthetication inherit chyth kodkkanam, 
+
+
+
+=>Serializer Relation:
+
+
+--In Django REST Framework (DRF), serializer relations dictate how model relationships (ForeignKey, 
+ManyToManyField, and OneToOneField) are represented in your API responses and handled during creation
+or updates.By default, a ModelSerializer will represent a relationship field using its Primary Key 
+(ID). However, DRF provides several alternative ways to serialize and deserialize relational data
+
+Built-in Relational Fields--PrimaryKeyRelatedField,StringRelatedField,SlungRelatedField,
+                            HyperlinkedrelatedField etc...
+
+
